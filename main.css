@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    padding: 14px 0;
+    background-color: brown;
+    color: aliceblue;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 14px;
+    font-size: 20px;
+}
+
+header nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'REM', sans-serif;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-list img{
+    height: 50px;
+}
+
+.brand-list li{
+    display: inline;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-family: 'REM', sans-serif;
+}
+
+section p{
+    margin-bottom: 6px;
+}
+
+section img {
+    margin-right: 30px;
+}
+
+header h1 {
+    font-family: 'REM', sans-serif;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+header img{
+    height: 70px;
+    align-items: center;
+    margin-right: 140px;
+}
+
+.social-links img,
+.social-links li{
+    height: 24px;
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input ,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 120px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color:rgb(197, 47, 47);
+    color: rgb(0, 0, 0);
+    font-family: 'REM', sans-serif ;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(253, 132, 132);
+}
+
+footer {
+    background-color:brown ;
+    color: aliceblue;
+    padding: 16px 0;
+}
